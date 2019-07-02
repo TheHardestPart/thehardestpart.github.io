@@ -3,7 +3,11 @@ body {
 }
 
 .flip-box {
-  transform: translate(0%, 50%);
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position:absolute;
   margin: auto;
   background-color: transparent;
   width: 250px;
